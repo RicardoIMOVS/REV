@@ -1,1 +1,139 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Evolve Sans";
+  src:
+    local("Evolve Sans UltraLight"),
+    local("Evolve Sans Ultra Thin"),
+    local("Evolve Sans Ultradelgada"),
+    url("/fonts/MADE%20Evolve%20Sans%20Thin%20(PERSONAL%20USE).otf")
+      format("opentype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Evolve Sans";
+  src:
+    local("Evolve Sans Thin"),
+    local("Evolve Sans Delgada"),
+    url("/fonts/MADE%20Evolve%20Sans%20Light%20(PERSONAL%20USE).otf")
+      format("opentype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Evolve Sans";
+  src:
+    local("Evolve Sans Regular"),
+    local("Evolve Sans Normal"),
+    local("Evolve Sans"),
+    url("/fonts/MADE%20Evolve%20Sans%20Regular%20(PERSONAL%20USE).otf")
+      format("opentype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Evolve Sans";
+  src:
+    local("Evolve Sans Medium"),
+    local("Evolve Sans Media"),
+    local("Evolve Sans"),
+    url("/fonts/MADE%20Evolve%20Sans%20Medium%20(PERSONAL%20USE).otf")
+      format("opentype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500 600;
+}
+
+@font-face {
+  font-family: "Evolve Sans";
+  src:
+    local("Evolve Sans Bold"),
+    local("Evolve Sans Negrita"),
+    local("Evolve Sans"),
+    url("/fonts/MADE%20Evolve%20Sans%20Bold%20(PERSONAL%20USE).otf")
+      format("opentype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700 900;
+}
+
+:root {
+  --font-evolve-sans: "Evolve Sans", Arial, Helvetica, sans-serif;
+  --font-rev-body: var(--font-evolve-sans);
+  --font-rev-display: var(--font-evolve-sans);
+  --font-v2-body: var(--font-evolve-sans);
+  --font-v2-display: var(--font-evolve-sans);
+}
+
+html,
+body {
+  font-family: var(--font-evolve-sans);
+  scroll-behavior: smooth;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+body * {
+  font-family: inherit;
+}
+
+.font-evolve-sans,
+.font-evolve-sans * {
+  font-family: var(--font-evolve-sans);
+}
+
+.font-evolve-sans {
+  font-weight: 300;
+}
+
+.font-evolve-sans h1,
+.font-evolve-sans h2 {
+  font-weight: 700;
+}
+
+.font-evolve-sans h3,
+.font-evolve-sans h4,
+.font-evolve-sans h5,
+.font-evolve-sans h6 {
+  font-weight: 500;
+}
+
+.font-evolve-sans p,
+.font-evolve-sans li,
+.font-evolve-sans blockquote,
+.font-evolve-sans cite,
+.font-evolve-sans summary,
+.font-evolve-sans input,
+.font-evolve-sans textarea {
+  font-weight: 300;
+}
+
+.brand-logo {
+  align-items: baseline;
+  display: inline-flex;
+  font-family: var(--font-evolve-sans);
+  gap: 0.45em;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.brand-logo-rev {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.brand-logo-name {
+  font-weight: 100;
+}
