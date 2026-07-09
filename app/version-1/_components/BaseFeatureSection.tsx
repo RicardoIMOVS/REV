@@ -1,3 +1,4 @@
+import { baseMicrositeUrl } from "../_data/ctas";
 import { Reveal } from "./Reveal";
 
 export function BaseFeatureSection() {
@@ -10,7 +11,7 @@ export function BaseFeatureSection() {
       <div className="relative z-10 mx-auto max-w-4xl text-center">
         <Reveal>
           <span className="mb-8 block text-xs font-semibold uppercase tracking-[0.35em] text-white/65">
-            Micrositio Exclusivo
+            Marca propia
           </span>
         </Reveal>
         <Reveal delay={150}>
@@ -20,18 +21,18 @@ export function BaseFeatureSection() {
         </Reveal>
         <Reveal delay={260}>
           <p className="mx-auto mt-10 max-w-2xl text-lg leading-8 text-white/70">
-            El ecosistema de wellness definitivo. Una inmersion en la
-            suplementacion de proxima generacion.
+            BASE presenta la visión de Revolution Pharma sobre nutrición
+            esencial como marca propia y ejemplo de capacidad comercial.
           </p>
         </Reveal>
         <Reveal delay={360}>
           <a
             className="mt-12 inline-flex border border-white/30 px-10 py-5 text-xs font-semibold uppercase tracking-[0.2em] transition hover:bg-white hover:text-black"
-            href="https://base.revolutionpharma.com.mx/"
+            href={baseMicrositeUrl}
             rel="noopener noreferrer"
             target="_blank"
           >
-            Ingresar al ecosistema
+            Entrar al micrositio BASE
           </a>
         </Reveal>
       </div>
