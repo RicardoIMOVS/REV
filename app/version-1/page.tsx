@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function VersionOnePage() {
   return (
     <main
-      className="font-evolve-sans min-h-screen bg-[#f6fafd] text-[#171c1f] selection:bg-black selection:text-white"
+      className="rev-brand-dark font-evolve-sans min-h-screen bg-[#2F3E46] text-[#FAFAFA] selection:bg-[#FAFAFA] selection:text-[#0E0E0E]"
     >
       <Navigation />
       <HeroSection />

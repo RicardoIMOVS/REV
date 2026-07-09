@@ -211,6 +211,176 @@ body * {
   transform: translateY(-6px);
 }
 
+.rev-brand-dark {
+  --rev-brand-primary: #2f3e46;
+  --rev-brand-light: #fafafa;
+  --rev-brand-ink: #0e0e0e;
+  --rev-brand-panel: #182226;
+  --rev-brand-panel-soft: #233139;
+  --rev-brand-border: rgb(250 250 250 / 0.16);
+  --rev-brand-muted: rgb(250 250 250 / 0.66);
+  background:
+    radial-gradient(circle at 78% 8%, rgb(250 250 250 / 0.08), transparent 24rem),
+    linear-gradient(135deg, var(--rev-brand-primary), #1b262b 48%, var(--rev-brand-ink));
+  color: var(--rev-brand-light);
+}
+
+.rev-brand-dark [class*="opacity-0"][class*="data-[visible=true]"] {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.rev-brand-dark nav {
+  border-color: var(--rev-brand-border) !important;
+  background: rgb(14 14 14 / 0.82) !important;
+  color: var(--rev-brand-light) !important;
+}
+
+.rev-brand-dark section {
+  background-color: transparent;
+}
+
+.rev-brand-dark .bg-white,
+.rev-brand-dark [class*="bg-[#f6fafd]"],
+.rev-brand-dark [class*="bg-[#eaeef2]"] {
+  background-color: var(--rev-brand-panel) !important;
+}
+
+.rev-brand-dark .bg-black {
+  background-color: var(--rev-brand-ink) !important;
+}
+
+.rev-brand-dark [class*="bg-[#2c3134]"] {
+  background-color: var(--rev-brand-panel-soft) !important;
+}
+
+.rev-brand-dark .text-black,
+.rev-brand-dark [class*="text-[#171c1f]"] {
+  color: var(--rev-brand-light) !important;
+}
+
+.rev-brand-dark [class*="text-[#444748]"],
+.rev-brand-dark [class*="text-[#747878]"],
+.rev-brand-dark [class*="text-[#9a9f9f]"] {
+  color: var(--rev-brand-muted) !important;
+}
+
+.rev-brand-dark [class*="text-black/75"] {
+  color: rgb(250 250 250 / 0.72) !important;
+}
+
+.rev-brand-dark [class*="text-black/["] {
+  color: rgb(250 250 250 / 0.08) !important;
+}
+
+.rev-brand-dark [class*="text-white/45"],
+.rev-brand-dark [class*="text-white/50"],
+.rev-brand-dark [class*="text-white/55"] {
+  color: rgb(250 250 250 / 0.68) !important;
+}
+
+.rev-brand-dark [class*="text-white/65"],
+.rev-brand-dark [class*="text-white/70"] {
+  color: rgb(250 250 250 / 0.78) !important;
+}
+
+.rev-brand-dark [class*="border-[#c4c7c7]"],
+.rev-brand-dark .border-black {
+  border-color: var(--rev-brand-border) !important;
+}
+
+.rev-brand-dark .border-white\/10,
+.rev-brand-dark .border-white\/15,
+.rev-brand-dark .border-white\/20,
+.rev-brand-dark .border-white\/30 {
+  border-color: var(--rev-brand-border) !important;
+}
+
+.rev-brand-dark a.bg-black,
+.rev-brand-dark button.bg-black {
+  background-color: var(--rev-brand-light) !important;
+  color: var(--rev-brand-ink) !important;
+}
+
+.rev-brand-dark a.bg-black:hover,
+.rev-brand-dark button.bg-black:hover {
+  background-color: rgb(250 250 250 / 0.82) !important;
+}
+
+.rev-brand-dark a.border-black:hover,
+.rev-brand-dark .group:hover .group-hover\:bg-white {
+  background-color: var(--rev-brand-light) !important;
+  color: var(--rev-brand-ink) !important;
+}
+
+.rev-brand-dark input,
+.rev-brand-dark textarea {
+  background-color: rgb(14 14 14 / 0.28) !important;
+  color: var(--rev-brand-light) !important;
+}
+
+.rev-brand-dark input::placeholder,
+.rev-brand-dark textarea::placeholder {
+  color: rgb(250 250 250 / 0.42);
+}
+
+.rev-brand-dark .rev-image-sweep {
+  background-color: var(--rev-brand-panel-soft) !important;
+  box-shadow: 0 30px 90px rgb(0 0 0 / 0.32);
+}
+
+.rev-brand-dark .rev-image-sweep img[src$="placeholder.svg"] {
+  filter: invert(1) grayscale(1) brightness(0.42) contrast(0.95) !important;
+  opacity: 0.78;
+}
+
+.rev-brand-dark img[src$="placeholder.svg"] {
+  filter: invert(1) grayscale(1) brightness(0.46) contrast(0.95);
+  opacity: 0.82;
+}
+
+.rev-brand-dark figure.bg-white,
+.rev-brand-dark form.bg-white {
+  background-color: var(--rev-brand-panel-soft) !important;
+}
+
+.rev-brand-dark figcaption {
+  background-color: rgb(14 14 14 / 0.88) !important;
+}
+
+.rev-brand-dark .rev-image-sweep::after {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(250 250 250 / 0.2),
+    transparent
+  );
+}
+
+.rev-brand-dark .rev-card-motion:hover {
+  box-shadow: 0 24px 70px rgb(0 0 0 / 0.32);
+}
+
+.rev-brand-dark section.bg-black {
+  background:
+    linear-gradient(135deg, rgb(14 14 14 / 0.96), rgb(24 34 38 / 0.98)),
+    var(--rev-brand-ink) !important;
+}
+
+.rev-brand-dark .rev-line-grow,
+.rev-brand-dark .h-1.w-12.bg-black,
+.rev-brand-dark .h-1\.5.w-1\.5.bg-black {
+  background-color: rgb(250 250 250 / 0.72) !important;
+}
+
+.rev-brand-dark [class*="bg-[radial-gradient"] {
+  background: radial-gradient(
+    circle at center,
+    var(--rev-brand-primary) 0%,
+    var(--rev-brand-ink) 58%
+  ) !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .rev-float,
   .rev-image-sweep::after,
