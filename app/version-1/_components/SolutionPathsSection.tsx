@@ -33,7 +33,7 @@ export function SolutionPathsSection() {
             delay={index * 120}
           >
             <a
-              className="flex min-h-120 flex-col border border-[#c4c7c7]/35 bg-[#f6fafd] p-7 text-black transition hover:-translate-y-1 hover:border-black hover:bg-white"
+              className="rev-card-motion relative flex min-h-120 flex-col overflow-hidden border border-[#c4c7c7]/35 bg-[#f6fafd] p-7 text-black hover:border-black hover:bg-white"
               href={
                 path.id === "distribucion" ||
                 path.id === "marca-blanca" ||
@@ -45,7 +45,13 @@ export function SolutionPathsSection() {
             >
               <span
                 aria-hidden="true"
-                className={`mb-8 block h-1.5 w-16 ${path.accent}`}
+                className="absolute right-6 top-5 text-7xl font-black leading-none text-black/[0.035] transition group-hover:text-black/[0.08]"
+              >
+                0{index + 1}
+              </span>
+              <span
+                aria-hidden="true"
+                className={`mb-8 block h-1.5 w-16 transition-all duration-500 group-hover:w-28 ${path.accent}`}
               />
               <span className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#444748]">
                 {path.eyebrow}

@@ -3,9 +3,9 @@ import { baseMicrositeUrl } from "./ctas";
 export const businessLinePages = {
   distribucion: {
     eyebrow: "Distribución",
-    title: "Convierte una oportunidad en un negocio rentable",
+    title: "Portafolio de suplementos listo para tu canal",
     intro:
-      "Accede a un portafolio de suplementos alimenticios desarrollados bajo altos estándares de calidad, listos para comercializar con tu propia red de distribución.",
+      "Integra a tu negocio suplementos alimenticios en presentaciones comerciales, con información de producto, soporte documental y acompañamiento para distribuirlos en puntos de venta, farmacias, tiendas especializadas o canales digitales.",
     cta: {
       href: "/version-1/contacto",
       label: "Solicitar cuenta comercial",
@@ -21,51 +21,51 @@ export const businessLinePages = {
     benefits: [
       {
         title: "Portafolio listo",
-        copy: "Productos pensados para entrar a canales comerciales sin construir una línea desde cero.",
+        copy: "Cápsulas blandas, vitaminas, minerales e ingredientes funcionales organizados para que puedas ampliar tu oferta sin desarrollar una línea desde cero.",
       },
       {
         title: "Ruta comercial clara",
-        copy: "Una experiencia visual para solicitar información, revisar categorías y abrir conversación con el equipo.",
+        copy: "Nuestro equipo te ayuda a revisar categorías, volúmenes, disponibilidad y condiciones comerciales según el perfil de tu canal.",
       },
       {
-        title: "Soporte documental",
-        copy: "Espacios previstos para catálogos, fichas técnicas y material comercial cuando los activos finales estén disponibles.",
+        title: "Comunicación responsable",
+        copy: "La información comercial se presenta como apoyo nutricional y debe mantenerse comprobable, orientadora y sin atribuir propiedades preventivas, terapéuticas o curativas.",
       },
     ],
     benefitsHeading:
-      "Una ruta visual para convertir visitantes en distribuidores",
+      "Una ruta para sumar productos a tu oferta con claridad comercial",
     catalog: [
       {
         category: "Softgel Capsules",
         description:
-          "Cápsulas blandas para portafolios de suplementación alimenticia.",
+          "Cápsulas blandas para complementar portafolios de suplementación alimenticia con presentaciones prácticas para venta al público.",
       },
       {
         category: "Vitaminas y minerales",
         description:
-          "Categorías de alta rotación para puntos de venta y canales especializados.",
+          "Productos orientados a consumidores que buscan integrar nutrientes específicos dentro de una alimentación equilibrada.",
       },
       {
         category: "Ingredientes funcionales",
         description:
-          "Opciones para ampliar un catálogo comercial con enfoque wellness.",
+          "Alternativas para ampliar el catálogo con productos de bienestar general, sin sustituir una dieta correcta ni la orientación de un profesional de la salud.",
       },
     ],
-    catalogEyebrow: "Catálogo visual",
-    catalogHeading: "Categorías para presentar el portafolio",
+    catalogEyebrow: "Catálogo comercial",
+    catalogHeading: "Categorías para activar tu portafolio comercial",
     process: [
       "Revisar perfil comercial",
       "Solicitar información de catálogo",
       "Definir volumen y condiciones",
       "Activar seguimiento comercial",
     ],
-    processHeading: "Solicitud comercial sin cuenta funcional",
+    processHeading: "Solicitud comercial para distribuidores",
   },
   "marca-blanca": {
     eyebrow: "Marca Blanca",
-    title: "Nosotros desarrollamos el producto. Tú construyes la marca.",
+    title: "Tu marca de suplementos, desarrollada con respaldo técnico",
     intro:
-      "Convierte tu idea en una marca competitiva mediante un servicio integral de marca privada, desde el concepto hasta la fabricación, el acondicionamiento y la entrega del producto terminado.",
+      "Lleva tu concepto al mercado con un servicio de marca privada para suplementos alimenticios: definición del producto, selección de ingredientes, desarrollo de presentación, etiquetado, fabricación, acondicionamiento y entrega.",
     cta: {
       href: "/version-1/contacto",
       label: "Agendar asesoría",
@@ -81,51 +81,51 @@ export const businessLinePages = {
     benefits: [
       {
         title: "Servicio integral",
-        copy: "La propuesta visual presenta un acompañamiento completo para construir producto, marca, empaque y ruta operativa.",
+        copy: "Acompañamos el proyecto desde la idea inicial hasta el producto terminado, con una ruta clara para convertir una oportunidad comercial en una línea lista para venta.",
       },
       {
         title: "Proceso entendible",
-        copy: "El usuario puede visualizar las etapas clave antes de iniciar una conversación comercial con el equipo.",
+        copy: "Revisamos objetivos, presentación, ingredientes, volumen y requisitos de empaque para que cada decisión responda al mercado al que quieres llegar.",
       },
       {
-        title: "Presentación escalable",
-        copy: "La página deja espacio para agregar renders, portafolio de proyectos y fotografías de planta cuando existan activos finales.",
+        title: "Comunicación responsable",
+        copy: "El desarrollo comercial se plantea con información comprobable, enfoque nutricional y sin atribuir al producto propiedades preventivas, terapéuticas o curativas.",
       },
     ],
     benefitsHeading:
-      "Una ruta visual para convertir ideas en proyectos de marca privada",
+      "Una ruta para transformar tu idea en una marca propia",
     catalog: [
       {
         category: "Desarrollo de concepto",
         description:
-          "Definición inicial del producto, posicionamiento comercial y objetivos de la marca.",
+          "Definición del tipo de suplemento, público objetivo, presentación comercial y diferenciadores permitidos para construir una propuesta clara.",
       },
       {
         category: "Formulación y producto",
         description:
-          "Selección de ingredientes, desarrollo técnico y organización del producto terminado.",
+          "Selección de ingredientes y características del producto con enfoque de suplementación alimenticia, calidad y viabilidad de fabricación.",
       },
       {
         category: "Marca, empaque y entrega",
         description:
-          "Presentación visual del empaque, etiquetado, acondicionamiento, logística y salida comercial.",
+          "Alineación de empaque, etiquetado, acondicionamiento y entrega para que la marca pueda presentarse de forma profesional en su canal de venta.",
       },
     ],
     catalogEyebrow: "Servicio llave en mano",
-    catalogHeading: "Etapas para presentar el desarrollo de marca",
+    catalogHeading: "Etapas para lanzar una marca privada",
     process: [
       "Definir concepto y objetivo comercial",
       "Revisar formulación e ingredientes",
       "Desarrollar empaque y etiquetado",
       "Coordinar fabricación y entrega",
     ],
-    processHeading: "Asesoría visual sin formulario funcional",
+    processHeading: "Asesoría para iniciar tu proyecto",
   },
   ingredientes: {
     eyebrow: "Ingredientes e insumos",
-    title: "La calidad de un gran producto comienza con sus ingredientes",
+    title: "Ingredientes especializados para desarrollar suplementos",
     intro:
-      "Ponemos a disposición de fabricantes y desarrolladores una selección de ingredientes e insumos especializados para la industria de suplementos alimenticios, con soporte comercial y documentación técnica como parte de la propuesta visual.",
+      "Abastecemos a fabricantes, laboratorios y marcas con ingredientes e insumos para suplementos alimenticios, acompañados de información técnica, disponibilidad por volumen y seguimiento comercial para cada proyecto.",
     cta: {
       href: "/version-1/contacto",
       label: "Solicitar cotización",
@@ -141,45 +141,45 @@ export const businessLinePages = {
     benefits: [
       {
         title: "Categorías claras",
-        copy: "La página organiza los insumos por familias para que el usuario encuentre rápido el tipo de ingrediente que necesita.",
+        copy: "Organizamos los insumos por familias para que tu equipo identifique con rapidez el ingrediente adecuado según presentación, aplicación y objetivo comercial.",
       },
       {
-        title: "Soporte técnico visual",
-        copy: "Se contemplan espacios para fichas técnicas, especificaciones y certificados de análisis cuando esos documentos estén listos.",
+        title: "Soporte técnico",
+        copy: "Compartimos fichas técnicas, especificaciones y documentación disponible para facilitar la evaluación del ingrediente antes de avanzar a compra.",
       },
       {
         title: "Cotización por volumen",
-        copy: "La experiencia guía al visitante hacia una solicitud comercial simple, sin carrito, pago ni sistema de compra funcional.",
+        copy: "Revisamos requerimientos, cantidades, presentación y disponibilidad para preparar una propuesta comercial ajustada al proyecto.",
       },
     ],
     benefitsHeading:
-      "Una ruta visual para convertir necesidades técnicas en solicitudes de cotización",
+      "Una ruta para convertir necesidades técnicas en cotizaciones claras",
     catalog: [
       {
         category: "Ácidos grasos",
         description:
-          "Omega 3 y otros ingredientes relacionados con categorías de suplementación alimenticia.",
+          "Omega 3 y otros ingredientes utilizados en el desarrollo de suplementos alimenticios en formatos como cápsula blanda u otras presentaciones.",
       },
       {
         category: "Vitaminas y minerales",
         description:
-          "Familias de ingredientes de alta demanda para desarrollo de productos nutricionales.",
+          "Materias primas para fórmulas orientadas a complementar la alimentación, con selección según concentración, presentación y aplicación.",
       },
       {
         category: "Aminoácidos y extractos",
         description:
-          "Opciones para formulaciones especializadas, extractos vegetales y otros funcionales.",
+          "Opciones para proyectos de suplementación que requieren aminoácidos, extractos vegetales u otros ingredientes funcionales con respaldo técnico.",
       },
     ],
     catalogEyebrow: "Categorías de ingredientes",
-    catalogHeading: "Insumos para presentar una línea técnica B2B",
+    catalogHeading: "Insumos para formular y fabricar con mayor claridad",
     process: [
       "Elegir categoría de ingrediente",
       "Solicitar información técnica",
       "Revisar volumen y disponibilidad",
       "Recibir seguimiento comercial",
     ],
-    processHeading: "Cotización visual sin integración funcional",
+    processHeading: "Cotización técnica para tu proyecto",
   },
   base: {
     eyebrow: "BASE",

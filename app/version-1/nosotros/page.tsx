@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Footer } from "../_components/Footer";
 import { Navigation } from "../_components/Navigation";
+import { PageVisual } from "../_components/PageVisual";
 import { Reveal } from "../_components/Reveal";
 import { SectionShell, SwissGrid } from "../_components/layout";
 import {
@@ -13,7 +14,7 @@ import {
 export const metadata: Metadata = {
   title: "Nosotros | REVOLUTION PHARMA",
   description:
-    "Propuesta institucional visual de Revolution Pharma: historia, calidad, infraestructura y responsabilidad.",
+    "Perfil institucional de Revolution Pharma: historia, calidad, infraestructura, logística y responsabilidad en suplementos alimenticios.",
 };
 
 export default function NosotrosPage() {
@@ -21,9 +22,9 @@ export default function NosotrosPage() {
     <main className="font-evolve-sans min-h-screen bg-[#f6fafd] text-[#171c1f] selection:bg-black selection:text-white">
       <Navigation />
 
-      <SectionShell className="pt-32 pb-24 md:pt-44 md:pb-32" id="inicio">
-        <SwissGrid className="items-end">
-          <div className="col-span-12 lg:col-span-8">
+      <SectionShell className="pt-32 pb-20 md:pt-44 md:pb-28" id="inicio">
+        <SwissGrid className="items-center">
+          <div className="col-span-12 lg:col-span-7">
             <Link
               className="mb-8 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-[#444748] transition hover:text-black"
               href="/version-1"
@@ -37,15 +38,20 @@ export default function NosotrosPage() {
               <h1 className="max-w-5xl text-5xl font-black uppercase leading-none text-black md:text-7xl xl:text-8xl">
                 Un aliado estratégico para crecer en suplementos
               </h1>
+              <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
+                Revolution Pharma integra distribución, marca privada,
+                ingredientes y una marca propia para acompañar proyectos de
+                suplementación alimenticia desde la idea hasta su salida
+                comercial.
+              </p>
             </Reveal>
           </div>
 
-          <Reveal delay={180} className="col-span-12 lg:col-span-4">
-            <p className="text-lg leading-8 text-[#444748]">
-              Esta página construye confianza institucional y presenta a
-              Revolution Pharma como un ecosistema de soluciones, no solo como
-              un proveedor aislado.
-            </p>
+          <Reveal delay={180} className="col-span-12 lg:col-span-5">
+            <PageVisual
+              caption="Equipo, operación y documentación para proyectos de suplementos"
+              label="Nosotros"
+            />
           </Reveal>
         </SwissGrid>
       </SectionShell>
@@ -74,7 +80,7 @@ export default function NosotrosPage() {
               Confianza institucional
             </span>
             <h2 className="text-4xl font-bold uppercase leading-tight text-black md:text-6xl">
-              Bloques preparados para contar la empresa
+              La estructura que respalda cada proyecto
             </h2>
           </Reveal>
         </div>
@@ -83,13 +89,18 @@ export default function NosotrosPage() {
           {companyPillars.map((pillar, index) => (
             <Reveal
               key={pillar.title}
-              className="col-span-12 border-t border-[#c4c7c7]/40 pt-8 md:col-span-6 lg:col-span-4"
+              className="col-span-12 md:col-span-6 lg:col-span-4"
               delay={index * 90}
             >
-              <h3 className="text-2xl font-bold uppercase text-black">
-                {pillar.title}
-              </h3>
-              <p className="mt-5 leading-7 text-[#444748]">{pillar.copy}</p>
+              <article className="flex min-h-80 flex-col border border-[#c4c7c7]/35 bg-white p-7 transition hover:border-black">
+                <span className="mb-10 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#747878]">
+                  Pilar 0{index + 1}
+                </span>
+                <h3 className="text-2xl font-bold uppercase text-black">
+                  {pillar.title}
+                </h3>
+                <p className="mt-5 leading-7 text-[#444748]">{pillar.copy}</p>
+              </article>
             </Reveal>
           ))}
         </SwissGrid>
@@ -102,7 +113,7 @@ export default function NosotrosPage() {
               Responsabilidad
             </span>
             <h2 className="text-4xl font-black uppercase leading-tight md:text-6xl">
-              Una propuesta lista para crecer sin prometer de más
+              Crecimiento con comunicación responsable
             </h2>
           </Reveal>
 
@@ -129,11 +140,12 @@ export default function NosotrosPage() {
             Siguiente paso
           </span>
           <h2 className="text-4xl font-black uppercase leading-tight text-black md:text-6xl">
-            Conectar confianza con acción comercial
+            Conectar experiencia con acción comercial
           </h2>
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
-            Desde esta página, el usuario puede volver al segmentador o avanzar
-            hacia contacto cuando quiera hablar de una ruta específica.
+            Explora nuestras soluciones para identificar si tu proyecto necesita
+            distribución, desarrollo de marca privada, suministro de ingredientes
+            o una referencia de marca propia como BASE.
           </p>
           <Link
             className="mt-10 inline-flex bg-black px-8 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#2c3134]"

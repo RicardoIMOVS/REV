@@ -22,7 +22,7 @@ export function BaseFeatureSection() {
         <Reveal delay={260}>
           <p className="mx-auto mt-10 max-w-2xl text-lg leading-8 text-white/70">
             BASE presenta la visión de Revolution Pharma sobre nutrición
-            esencial como marca propia y prueba visual de capacidad comercial.
+            esencial como marca propia y ejemplo de capacidad comercial.
           </p>
         </Reveal>
         <Reveal delay={360}>

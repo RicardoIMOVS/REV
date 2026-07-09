@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Footer } from "../_components/Footer";
 import { Navigation } from "../_components/Navigation";
+import { PageVisual } from "../_components/PageVisual";
 import { Reveal } from "../_components/Reveal";
 import { SectionShell, SwissGrid } from "../_components/layout";
 import {
@@ -13,7 +14,7 @@ import {
 export const metadata: Metadata = {
   title: "Recursos | REVOLUTION PHARMA",
   description:
-    "Propuesta visual de recursos, blog, guías y casos de éxito para Revolution Pharma.",
+    "Recursos, guías y contenidos educativos sobre suplementos alimenticios, marca privada, ingredientes y distribución B2B.",
 };
 
 export default function RecursosPage() {
@@ -21,9 +22,9 @@ export default function RecursosPage() {
     <main className="font-evolve-sans min-h-screen bg-[#f6fafd] text-[#171c1f] selection:bg-black selection:text-white">
       <Navigation />
 
-      <SectionShell className="pt-32 pb-24 md:pt-44 md:pb-32" id="inicio">
-        <SwissGrid className="items-end">
-          <div className="col-span-12 lg:col-span-8">
+      <SectionShell className="pt-32 pb-20 md:pt-44 md:pb-28" id="inicio">
+        <SwissGrid className="items-center">
+          <div className="col-span-12 lg:col-span-7">
             <Link
               className="mb-8 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-[#444748] transition hover:text-black"
               href="/version-1"
@@ -35,17 +36,21 @@ export default function RecursosPage() {
                 Recursos
               </span>
               <h1 className="max-w-5xl text-5xl font-black uppercase leading-none text-black md:text-7xl xl:text-8xl">
-                Centro de conocimiento para construir autoridad
+                Centro de conocimiento para tomar mejores decisiones
               </h1>
+              <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
+                Consulta guías, artículos y respuestas clave para entender la
+                industria de suplementos alimenticios, evaluar rutas comerciales
+                y elegir la solución que mejor se ajusta a tu proyecto.
+              </p>
             </Reveal>
           </div>
 
-          <Reveal delay={180} className="col-span-12 lg:col-span-4">
-            <p className="text-lg leading-8 text-[#444748]">
-              Un espacio visual para blog, guías, casos de éxito y preguntas
-              frecuentes. Su función es informar, construir confianza y llevar
-              al usuario hacia una solución comercial.
-            </p>
+          <Reveal delay={180} className="col-span-12 lg:col-span-5">
+            <PageVisual
+              caption="Biblioteca de guías, casos y respuestas para decidir mejor"
+              label="Recursos"
+            />
           </Reveal>
         </SwissGrid>
       </SectionShell>
@@ -60,7 +65,7 @@ export default function RecursosPage() {
               Contenido destacado
             </span>
             <h2 className="text-4xl font-bold uppercase leading-tight text-black md:text-6xl">
-              Recursos visuales para orientar la decisión del usuario
+              Recursos para orientar tu decisión comercial
             </h2>
           </Reveal>
         </div>
@@ -72,19 +77,26 @@ export default function RecursosPage() {
               className="col-span-12 md:col-span-4"
               delay={index * 120}
             >
-              <article className="flex min-h-112 flex-col border border-[#c4c7c7]/35 bg-[#f6fafd] p-7 transition hover:border-black hover:bg-white">
-                <span className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#444748]">
-                  {resource.category}
-                </span>
-                <h3 className="text-2xl font-bold uppercase leading-tight text-black">
-                  {resource.title}
-                </h3>
-                <p className="mt-6 leading-7 text-[#444748]">
-                  {resource.copy}
-                </p>
-                <span className="mt-auto pt-10 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#747878]">
-                  {resource.status}
-                </span>
+              <article className="flex min-h-128 flex-col overflow-hidden border border-[#c4c7c7]/35 bg-[#f6fafd] transition hover:border-black hover:bg-white">
+                <img
+                  alt={resource.title}
+                  className="aspect-[16/9] w-full object-cover"
+                  src="/placeholder.svg"
+                />
+                <div className="flex flex-1 flex-col p-7">
+                  <span className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#444748]">
+                    {resource.category}
+                  </span>
+                  <h3 className="text-2xl font-bold uppercase leading-tight text-black">
+                    {resource.title}
+                  </h3>
+                  <p className="mt-6 leading-7 text-[#444748]">
+                    {resource.copy}
+                  </p>
+                  <span className="mt-auto pt-10 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#747878]">
+                    {resource.status}
+                  </span>
+                </div>
               </article>
             </Reveal>
           ))}
@@ -98,7 +110,7 @@ export default function RecursosPage() {
               Temas SEO
             </span>
             <h2 className="text-4xl font-black uppercase leading-tight text-black md:text-6xl">
-              Categorías para crecer el sitio sin cambiar la estructura
+              Categorías para explorar el ecosistema de suplementos
             </h2>
           </Reveal>
 
@@ -123,7 +135,7 @@ export default function RecursosPage() {
               Preguntas frecuentes
             </span>
             <h2 className="text-4xl font-black uppercase leading-tight md:text-6xl">
-              Recursos sin CMS funcional todavía
+              Preguntas para avanzar con claridad
             </h2>
           </Reveal>
 
@@ -155,11 +167,12 @@ export default function RecursosPage() {
             Siguiente paso
           </span>
           <h2 className="text-4xl font-black uppercase leading-tight text-black md:text-6xl">
-            Cada recurso debe llevar a una solución
+            Cada recurso conecta con una solución
           </h2>
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
-            En la versión final, cada artículo podrá recomendar Distribución,
-            Marca Blanca, Ingredientes o BASE según la intención del usuario.
+            Encuentra contenidos pensados para comparar Distribución, Marca
+            Blanca, Ingredientes y BASE según la etapa, el canal y el objetivo
+            comercial de tu proyecto.
           </p>
           <Link
             className="mt-10 inline-flex bg-black px-8 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#2c3134]"

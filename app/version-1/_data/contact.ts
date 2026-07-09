@@ -11,7 +11,7 @@ export const contactIntents = [
   },
   {
     title: "Distribuidores",
-    copy: "Para solicitar información de portafolio, condiciones y cuenta comercial visual.",
+    copy: "Para solicitar información de portafolio, condiciones comerciales, disponibilidad y proceso para distribuidores.",
     cta: "Solicitar cuenta",
   },
   {
@@ -26,7 +26,7 @@ export const contactIntents = [
   },
   {
     title: "BASE",
-    copy: "Para información sobre la marca propia, portafolio visual o micrositio futuro.",
+    copy: "Para conocer la marca propia, su portafolio, contenido educativo y rutas de atención relacionadas.",
     cta: "Entrar al micrositio BASE",
   },
 ];
@@ -38,7 +38,7 @@ export const contactChannels = [
   "Dirección corporativa",
 ];
 
-export const visualFormFields = [
+export const contactFormFields = [
   "Nombre",
   "Correo electrónico",
   "Empresa",

@@ -14,7 +14,7 @@ export function BrandStatement() {
           </h2>
         </Reveal>
         <Reveal delay={260}>
-          <div className="mx-auto mt-12 h-24 w-px bg-black" />
+          <div className="rev-line-grow mx-auto mt-12 h-24 w-px bg-black" />
         </Reveal>
       </div>
     </SectionShell>

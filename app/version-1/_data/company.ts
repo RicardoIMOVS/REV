@@ -1,39 +1,39 @@
 export const companyPillars = [
   {
     title: "Quiénes somos",
-    copy: "Revolution Pharma se presenta como un aliado estratégico para empresas, emprendedores y consumidores dentro de la industria de suplementos alimenticios.",
+    copy: "Revolution Pharma acompaña a empresas, emprendedores y marcas que buscan participar en la industria de suplementos alimenticios con soluciones comerciales y técnicas.",
   },
   {
     title: "Nuestra historia",
-    copy: "La propuesta visual comunica una evolución hacia un ecosistema que conecta ingredientes, desarrollo de marcas, distribución y BASE.",
+    copy: "Hemos construido un ecosistema que conecta abastecimiento de ingredientes, desarrollo de marcas, distribución especializada y BASE como referencia de marca propia.",
   },
   {
     title: "Calidad",
-    copy: "El contenido mantiene un enfoque preventivo: trazabilidad, soporte documental, higiene aplicable y revisión técnica por proyecto.",
+    copy: "Trabajamos con enfoque en trazabilidad, soporte documental, higiene aplicable y revisión técnica para que cada proyecto avance con mayor claridad.",
   },
   {
     title: "Certificaciones",
-    copy: "Espacio institucional previsto para mostrar certificaciones vigentes cuando existan documentos validados para publicación.",
+    copy: "La información documental se gestiona por proyecto para compartir especificaciones, certificados o soportes disponibles según el producto, ingrediente o servicio solicitado.",
   },
   {
     title: "Infraestructura",
-    copy: "Bloque visual para presentar capacidades operativas, fotografías corporativas o planta cuando los activos finales estén disponibles.",
+    copy: "Coordinamos capacidades operativas para el desarrollo, acondicionamiento, suministro y salida comercial de productos dentro del ecosistema de suplementos.",
   },
   {
     title: "Logística",
-    copy: "Se comunica la coordinación de proveedores, entrega y rutas comerciales como parte de una experiencia escalable.",
+    copy: "Acompañamos la planeación de volúmenes, disponibilidad, tiempos de entrega y rutas comerciales para que cada cliente avance con expectativas claras.",
   },
 ];
 
 export const trustStats = [
-  { label: "4 líneas", value: "Ecosistema" },
-  { label: "B2B/B2C", value: "Rutas" },
-  { label: "SEO", value: "Autoridad" },
-  { label: "Visual", value: "Versión 1" },
+  { label: "Distribución, marca privada, ingredientes y BASE", value: "4 líneas" },
+  { label: "Soluciones para empresas y consumidores", value: "B2B/B2C" },
+  { label: "Soporte comercial y técnico", value: "Acompañamiento" },
+  { label: "Comunicación responsable", value: "Cumplimiento" },
 ];
 
 export const responsibilityItems = [
   "Comunicación sin claims terapéuticos, preventivos o curativos.",
-  "Separación clara entre propuesta visual y funcionalidades futuras.",
-  "Contenido preparado para crecer hacia ecommerce, CMS o portal sin rehacer la estructura.",
+  "Información comercial comprobable, orientadora y alineada con la categoría aplicable.",
+  "Acompañamiento para presentar productos, ingredientes y servicios con claridad documental.",
 ];

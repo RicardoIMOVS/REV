@@ -1,54 +1,54 @@
 export const helpTopics = [
   {
     title: "Centro de ayuda",
-    copy: "Espacio visual para preguntas frecuentes, orientación general y rutas de soporte.",
-    status: "Visible en versión 1",
+    copy: "Consulta preguntas frecuentes, orientación general y rutas de soporte para identificar el siguiente paso de tu solicitud.",
+    status: "Orientación",
   },
   {
     title: "Chat / WhatsApp",
-    copy: "Acceso comercial placeholder para dirigir al usuario hacia contacto directo.",
-    status: "CTA visual",
+    copy: "Canal de atención para conversaciones comerciales, dudas rápidas y seguimiento inicial con el equipo correspondiente.",
+    status: "Contacto directo",
   },
   {
     title: "Estado de pedido",
-    copy: "Módulo contemplado para una versión posterior, sin consulta funcional en esta propuesta.",
-    status: "Próximamente",
+    copy: "Soporte para revisar avances, tiempos estimados, disponibilidad o información relacionada con una solicitud comercial en proceso.",
+    status: "Seguimiento",
   },
   {
     title: "Facturación",
-    copy: "Ruta prevista para soporte administrativo futuro, sin carga ni descarga de documentos.",
-    status: "Próximamente",
+    copy: "Orientación para canalizar dudas administrativas, datos fiscales, comprobantes o documentación relacionada con una operación.",
+    status: "Administrativo",
   },
 ];
 
 export const helpFaqs = [
-  {
-    question: "¿Puedo iniciar sesión desde esta versión?",
-    answer:
-      "No. Login, registro y Mi Cuenta quedan fuera de la versión 1 visual.",
-  },
-  {
-    question: "¿Puedo consultar pedidos o facturas?",
-    answer:
-      "No en esta etapa. Esas funciones se muestran como próximamente para no mezclar la propuesta visual con backend.",
-  },
   {
     question: "¿Cómo contacto al equipo correcto?",
     answer:
       "La ruta recomendada es ir a Contacto y elegir la intención: ventas, distribuidores, marca blanca, ingredientes, BASE o atención.",
   },
   {
-    question: "¿La ayuda tendrá chat real?",
+    question: "¿Puedo solicitar seguimiento de un proyecto?",
     answer:
-      "Puede integrarse después. Por ahora se presenta como botón visual o acceso a contacto.",
+      "Sí. Comparte el contexto de tu solicitud, empresa, línea de interés y datos de contacto para que el equipo pueda orientarte.",
+  },
+  {
+    question: "¿Puedo pedir fichas técnicas o documentación?",
+    answer:
+      "Sí. La documentación disponible se revisa por producto, ingrediente o proyecto, y se comparte según corresponda a la solicitud comercial.",
+  },
+  {
+    question: "¿La ayuda sustituye una asesoría profesional?",
+    answer:
+      "No. La información es orientativa y comercial; cualquier decisión de salud, consumo o uso de suplementos debe consultarse con un profesional competente.",
   },
 ];
 
-export const futureSupportFeatures = [
-  "Seguimiento de envíos en tiempo real",
+export const supportFeatures = [
+  "Seguimiento de solicitudes y entregas",
   "Descarga de COA y fichas técnicas",
-  "Aprobación de artes y etiquetas",
-  "Mensajería con ejecutivo de cuenta",
+  "Revisión de artes y etiquetas",
+  "Comunicación con ejecutivo de cuenta",
   "Notificaciones de proyectos o reabastecimientos",
-  "Historial de compras y reportes",
+  "Historial comercial y reportes",
 ];

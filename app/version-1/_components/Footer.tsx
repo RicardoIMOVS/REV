@@ -17,7 +17,7 @@ const commercialLinks = [
   {
     href: commercialCtas.base.href,
     label: "Entrar a BASE",
-    eyebrow: "B2C visual",
+    eyebrow: "B2C",
   },
 ];
 

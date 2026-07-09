@@ -2,18 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Footer } from "../_components/Footer";
 import { Navigation } from "../_components/Navigation";
+import { PageVisual } from "../_components/PageVisual";
 import { Reveal } from "../_components/Reveal";
 import { SectionShell, SwissGrid } from "../_components/layout";
 import {
   contactChannels,
   contactIntents,
-  visualFormFields,
+  contactFormFields,
 } from "../_data/contact";
 
 export const metadata: Metadata = {
   title: "Contacto | REVOLUTION PHARMA",
   description:
-    "Propuesta visual de contacto por intención para Revolution Pharma.",
+    "Contacto comercial de Revolution Pharma para distribución, marca privada, ingredientes, BASE y atención general.",
 };
 
 export default function ContactoPage() {
@@ -21,9 +22,9 @@ export default function ContactoPage() {
     <main className="font-evolve-sans min-h-screen bg-[#f6fafd] text-[#171c1f] selection:bg-black selection:text-white">
       <Navigation />
 
-      <SectionShell className="pt-32 pb-24 md:pt-44 md:pb-32" id="inicio">
-        <SwissGrid className="items-end">
-          <div className="col-span-12 lg:col-span-8">
+      <SectionShell className="pt-32 pb-20 md:pt-44 md:pb-28" id="inicio">
+        <SwissGrid className="items-center">
+          <div className="col-span-12 lg:col-span-7">
             <Link
               className="mb-8 inline-flex text-xs font-semibold uppercase tracking-[0.2em] text-[#444748] transition hover:text-black"
               href="/version-1"
@@ -37,15 +38,19 @@ export default function ContactoPage() {
               <h1 className="max-w-5xl text-5xl font-black uppercase leading-none text-black md:text-7xl xl:text-8xl">
                 Hablemos según la ruta que necesitas
               </h1>
+              <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
+                Cuéntanos qué necesitas y canalizaremos tu solicitud hacia el
+                equipo adecuado: ventas, atención, distribución, marca privada,
+                ingredientes o BASE.
+              </p>
             </Reveal>
           </div>
 
-          <Reveal delay={180} className="col-span-12 lg:col-span-4">
-            <p className="text-lg leading-8 text-[#444748]">
-              Una central visual para dirigir cada solicitud al flujo correcto:
-              ventas, atención, distribuidores, marca blanca, ingredientes o
-              BASE.
-            </p>
+          <Reveal delay={180} className="col-span-12 lg:col-span-5">
+            <PageVisual
+              caption="Rutas claras para ventas, soporte y solicitudes técnicas"
+              label="Contacto"
+            />
           </Reveal>
         </SwissGrid>
       </SectionShell>
@@ -72,7 +77,10 @@ export default function ContactoPage() {
               className="col-span-12 md:col-span-6 lg:col-span-4"
               delay={index * 90}
             >
-              <article className="flex min-h-76 flex-col border border-[#c4c7c7]/35 bg-[#f6fafd] p-7 transition hover:border-black hover:bg-white">
+              <article className="flex min-h-80 flex-col border border-[#c4c7c7]/35 bg-[#f6fafd] p-7 transition hover:border-black hover:bg-white">
+                <span className="mb-10 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#747878]">
+                  Ruta 0{index + 1}
+                </span>
                 <h3 className="text-2xl font-bold uppercase text-black">
                   {intent.title}
                 </h3>
@@ -90,20 +98,21 @@ export default function ContactoPage() {
         <SwissGrid className="items-start">
           <Reveal className="col-span-12 lg:col-span-5">
             <span className="mb-5 block text-xs font-semibold uppercase tracking-[0.2em] text-[#444748]">
-              Formulario visual
+              Formulario de contacto
             </span>
             <h2 className="text-4xl font-black uppercase leading-tight text-black md:text-6xl">
-              Placeholder sin envío real
+              Inicia una conversación con nuestro equipo
             </h2>
             <p className="mt-8 max-w-md leading-7 text-[#444748]">
-              Esta versión muestra la experiencia esperada. La integración,
-              validación y envío se definirán en desarrollo posterior.
+              Comparte tus datos, el tipo de proyecto y el mensaje principal
+              para que podamos orientarte con mayor precisión desde el primer
+              contacto.
             </p>
           </Reveal>
 
           <Reveal delay={160} className="col-span-12 lg:col-span-7">
-            <form className="grid gap-4 border border-[#c4c7c7]/35 bg-white p-6 md:p-8">
-              {visualFormFields.map((field) =>
+            <form className="grid gap-4 border border-[#c4c7c7]/35 bg-white p-6 shadow-[0_24px_80px_rgba(23,28,31,0.08)] md:p-8">
+              {contactFormFields.map((field) =>
                 field === "Mensaje" ? (
                   <textarea
                     key={field}
@@ -123,7 +132,7 @@ export default function ContactoPage() {
                 className="min-h-14 bg-black px-8 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#2c3134]"
                 type="button"
               >
-                Enviar solicitud visual
+                Enviar solicitud
               </button>
             </form>
           </Reveal>
@@ -137,17 +146,21 @@ export default function ContactoPage() {
               Canales
             </span>
             <h2 className="text-4xl font-black uppercase leading-tight md:text-6xl">
-              Puntos de contacto para completar después
+              Canales para seguimiento comercial
             </h2>
           </Reveal>
 
           <div className="col-span-12 grid gap-4 md:grid-cols-2 lg:col-span-7">
             {contactChannels.map((channel, index) => (
               <Reveal key={channel} delay={index * 90}>
-                <div className="border border-white/15 p-6">
+                <div className="min-h-52 border border-white/15 p-6 transition hover:border-white">
+                  <span className="mb-8 block text-[11px] font-semibold uppercase tracking-[0.2em] text-white/45">
+                    Canal 0{index + 1}
+                  </span>
                   <span className="text-xl font-bold uppercase">{channel}</span>
                   <p className="mt-4 leading-7 text-white/60">
-                    Dato pendiente para integración final.
+                    Nuestro equipo dará seguimiento según la naturaleza de la
+                    solicitud y la ruta comercial seleccionada.
                   </p>
                 </div>
               </Reveal>

@@ -29,7 +29,7 @@ export function ServicesSection() {
             delay={index * 160}
           >
             <article
-              className="flex min-h-112 scroll-mt-32 flex-col border-t border-[#c4c7c7]/40 pt-8 transition-colors group-hover:border-black"
+              className="rev-card-motion flex min-h-112 scroll-mt-32 flex-col border border-[#c4c7c7]/35 bg-white p-7 group-hover:border-black"
               id={service.id}
             >
               <span className="mb-4 block text-xs font-semibold uppercase tracking-widest text-black">
@@ -44,7 +44,10 @@ export function ServicesSection() {
               <ul className="mb-10 space-y-3 text-sm leading-6 text-[#444748]">
                 {service.points.map((point) => (
                   <li key={point} className="flex gap-3">
-                    <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 bg-black" />
+                    <span
+                      aria-hidden="true"
+                      className="mt-2 h-1.5 w-1.5 shrink-0 bg-black transition-transform group-hover:scale-125"
+                    />
                     <span>{point}</span>
                   </li>
                 ))}

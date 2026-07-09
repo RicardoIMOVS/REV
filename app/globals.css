@@ -137,3 +137,90 @@ body * {
 .brand-logo-name {
   font-weight: 100;
 }
+
+@keyframes rev-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -14px, 0);
+  }
+}
+
+@keyframes rev-sweep {
+  0% {
+    transform: translate3d(-120%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(120%, 0, 0);
+  }
+}
+
+@keyframes rev-line-grow {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+
+  100% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+.rev-float {
+  animation: rev-float 7s ease-in-out infinite;
+}
+
+.rev-image-sweep {
+  position: relative;
+}
+
+.rev-image-sweep::after {
+  animation: rev-sweep 4.5s ease-in-out infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(255 255 255 / 0.5),
+    transparent
+  );
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: translate3d(-120%, 0, 0);
+}
+
+.rev-line-grow {
+  animation: rev-line-grow 1.1s ease-out both;
+}
+
+.rev-card-motion {
+  transition:
+    background-color 350ms ease,
+    border-color 350ms ease,
+    box-shadow 350ms ease,
+    transform 350ms ease;
+}
+
+.rev-card-motion:hover {
+  box-shadow: 0 24px 70px rgb(23 28 31 / 0.12);
+  transform: translateY(-6px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rev-float,
+  .rev-image-sweep::after,
+  .rev-line-grow {
+    animation: none;
+  }
+
+  .rev-card-motion,
+  .rev-card-motion:hover {
+    transition: none;
+    transform: none;
+  }
+}

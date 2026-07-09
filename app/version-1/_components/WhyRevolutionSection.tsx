@@ -10,12 +10,12 @@ const pillars = [
   {
     label: "02 / Convertir",
     title: "Rutas comerciales",
-    copy: "Distribución, marca blanca e ingredientes se presentan como caminos de contacto, asesoría o cotización sin funciones transaccionales.",
+    copy: "Distribución, marca blanca e ingredientes se presentan como caminos claros para iniciar una conversación comercial, una asesoría o una cotización.",
   },
   {
     label: "03 / Comprar",
-    title: "BASE visual",
-    copy: "La marca propia muestra la capacidad de llevar un producto del concepto al consumidor, sin activar carrito ni checkout en esta versión.",
+    title: "BASE como marca propia",
+    copy: "La marca propia muestra la capacidad de llevar un producto del concepto al consumidor con una experiencia enfocada en nutrición esencial.",
   },
 ];
 
@@ -26,16 +26,18 @@ export function WhyRevolutionSection() {
         {pillars.map((pillar, index) => (
           <Reveal
             key={pillar.label}
-            className="col-span-12 border-t border-[#c4c7c7]/40 pt-8 lg:col-span-4"
+            className="group col-span-12 lg:col-span-4"
             delay={index * 160}
           >
-            <span className="text-xs font-semibold uppercase tracking-widest text-black">
-              {pillar.label}
-            </span>
-            <h3 className="mt-6 text-3xl font-bold text-black md:text-4xl">
-              {pillar.title}
-            </h3>
-            <p className="mt-4 leading-7 text-[#444748]">{pillar.copy}</p>
+            <article className="rev-card-motion min-h-88 border-t border-[#c4c7c7]/40 bg-transparent pt-8 group-hover:border-black">
+              <span className="text-xs font-semibold uppercase tracking-widest text-black">
+                {pillar.label}
+              </span>
+              <h3 className="mt-6 text-3xl font-bold text-black md:text-4xl">
+                {pillar.title}
+              </h3>
+              <p className="mt-4 leading-7 text-[#444748]">{pillar.copy}</p>
+            </article>
           </Reveal>
         ))}
       </SwissGrid>

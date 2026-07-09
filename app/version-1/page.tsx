@@ -14,7 +14,7 @@ import { WhyRevolutionSection } from "./_components/WhyRevolutionSection";
 export const metadata: Metadata = {
   title: "REVOLUTION PHARMA | Ecosistema de suplementos",
   description:
-    "Sitio visual corporativo para presentar distribución, marca blanca, ingredientes y BASE como líneas de negocio de Revolution Pharma.",
+    "Ecosistema de suplementos alimenticios para distribución, marca privada, ingredientes y BASE como marca propia de Revolution Pharma.",
 };
 
 export default function VersionOnePage() {
