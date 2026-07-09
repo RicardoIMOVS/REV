@@ -3,19 +3,19 @@ import { SectionShell, SwissGrid } from "./layout";
 
 const pillars = [
   {
-    label: "01 / Precision",
-    title: "Ingenieria Documentada",
-    copy: "Desarrollo de propuestas tecnicas con criterios de inocuidad, trazabilidad de insumos y documentacion de soporte para cada proyecto.",
+    label: "01 / Informar",
+    title: "Confianza institucional",
+    copy: "Contenido claro para explicar quién es Revolution Pharma, cómo trabaja y qué rutas ofrece dentro de la industria de suplementos.",
   },
   {
-    label: "02 / Estetica",
-    title: "Diseno Industrial",
-    copy: "Entendemos que el packaging es la primera interfaz del usuario. Creamos objetos de deseo, no solo envases.",
+    label: "02 / Convertir",
+    title: "Rutas comerciales",
+    copy: "Distribución, marca blanca e ingredientes se presentan como caminos de contacto, asesoría o cotización sin funciones transaccionales.",
   },
   {
-    label: "03 / Escala",
-    title: "Logistica Global",
-    copy: "Planeacion operativa para proyectos que requieren orden documental, coordinacion de proveedores y rutas de distribucion escalables.",
+    label: "03 / Comprar",
+    title: "BASE visual",
+    copy: "La marca propia muestra la capacidad de llevar un producto del concepto al consumidor, sin activar carrito ni checkout en esta versión.",
   },
 ];
 

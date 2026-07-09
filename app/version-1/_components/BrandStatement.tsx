@@ -10,7 +10,7 @@ export function BrandStatement() {
       <div className="text-center">
         <Reveal>
           <h2 className="mx-auto max-w-4xl text-5xl font-black uppercase leading-tight text-black md:text-7xl">
-            No somos un laboratorio. Somos el origen de tu marca.
+            No somos una página de productos. Somos un ecosistema para crecer.
           </h2>
         </Reveal>
         <Reveal delay={260}>

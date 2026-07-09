@@ -6,14 +6,15 @@ import { HeroSection } from "./_components/HeroSection";
 import { ManufacturingJourney } from "./_components/ManufacturingJourney";
 import { Navigation } from "./_components/Navigation";
 import { ServicesSection } from "./_components/ServicesSection";
+import { SolutionPathsSection } from "./_components/SolutionPathsSection";
 import { StartProjectSection } from "./_components/StartProjectSection";
 import { TestimonialsFaqSection } from "./_components/TestimonialsFaqSection";
 import { WhyRevolutionSection } from "./_components/WhyRevolutionSection";
 
 export const metadata: Metadata = {
-  title: "REVOLUTION PHARMA | La Ciencia de lo Extraordinario",
+  title: "REVOLUTION PHARMA | Ecosistema de suplementos",
   description:
-    "Partner estrategico en manufactura de suplementos premium con rigor cientifico y estetica superior.",
+    "Sitio visual corporativo para presentar distribución, marca blanca, ingredientes y BASE como líneas de negocio de Revolution Pharma.",
 };
 
 export default function VersionOnePage() {
@@ -23,6 +24,7 @@ export default function VersionOnePage() {
     >
       <Navigation />
       <HeroSection />
+      <SolutionPathsSection />
       <BrandStatement />
       <WhyRevolutionSection />
       <ManufacturingJourney />

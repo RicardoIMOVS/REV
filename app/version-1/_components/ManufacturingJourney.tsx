@@ -4,17 +4,17 @@ import { SectionShell, SwissGrid } from "./layout";
 
 const journey = [
   {
-    phase: "Fase Alpha",
-    title: "Conceptualizacion Molecular",
-    copy: "Analizamos ingredientes permitidos, compatibilidades tecnicas y objetivos de formulacion sin atribuir propiedades terapeuticas al producto final.",
+    phase: "Motor 01",
+    title: "Informar",
+    copy: "El sitio construye confianza mediante Nosotros, Calidad, Recursos y contenido educativo que orienta la decisión del usuario.",
     image:
       "/placeholder.svg",
     imageFirst: false,
   },
   {
-    phase: "Fase Gamma",
-    title: "Manufactura de Alta Frecuencia",
-    copy: "Estructuramos procesos con controles de calidad, criterios de higiene y trazabilidad conforme al alcance documental de cada proyecto.",
+    phase: "Motor 02",
+    title: "Convertir",
+    copy: "Cada línea de negocio dirige a una acción clara: solicitar cuenta comercial, agendar asesoría, pedir cotización o explorar BASE.",
     image:
       "/placeholder.svg",
     imageFirst: true,
@@ -30,11 +30,11 @@ export function ManufacturingJourney() {
       <div className="mb-20 flex flex-col gap-6 md:mb-24 md:flex-row md:items-baseline">
         <Reveal>
           <h2 className="text-5xl font-black uppercase leading-tight md:text-7xl">
-            El viaje de la innovacion
+            Informar, convertir, contactar
           </h2>
         </Reveal>
         <span className="hidden text-xs font-semibold uppercase tracking-widest text-white/50 md:block">
-          Documentacion tecnica / BPM aplicables
+          Arquitectura funcional versión 1
         </span>
       </div>
 
@@ -48,7 +48,7 @@ export function ManufacturingJourney() {
               >
                 <div className="relative aspect-video w-full overflow-hidden">
                   <Image
-                    alt={`${item.title} en laboratorio farmaceutico premium.`}
+                    alt={`${item.title} dentro del ecosistema digital de Revolution Pharma.`}
                     className="object-cover grayscale brightness-90 transition duration-700 hover:grayscale-0"
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
