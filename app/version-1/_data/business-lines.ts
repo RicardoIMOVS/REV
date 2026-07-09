@@ -1,4 +1,4 @@
-import { commercialCtas } from "./ctas";
+import { baseMicrositeUrl, commercialCtas } from "./ctas";
 
 export const businessLines = [
   {
@@ -66,7 +66,7 @@ export const businessLines = [
     id: "base",
     label: "04 / BASE",
     meta: "B2C",
-    pageHref: "/version-1/base",
+    pageHref: baseMicrositeUrl,
     pathTitle: "Explora nuestra visión de nutrición esencial",
     summary:
       "Conoce la filosofía, el portafolio y el contenido educativo de BASE, la marca propia de Revolution Pharma.",

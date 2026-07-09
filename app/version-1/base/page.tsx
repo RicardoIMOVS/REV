@@ -1,12 +1,6 @@
-import type { Metadata } from "next";
-import { BusinessLinePage } from "../_components/BusinessLinePage";
-
-export const metadata: Metadata = {
-  title: "BASE | REVOLUTION PHARMA",
-  description:
-    "Propuesta visual de BASE, marca propia de Revolution Pharma orientada a nutrición esencial.",
-};
+import { permanentRedirect } from "next/navigation";
+import { baseMicrositeUrl } from "../_data/ctas";
 
 export default function BasePage() {
-  return <BusinessLinePage lineId="base" />;
+  permanentRedirect(baseMicrositeUrl);
 }

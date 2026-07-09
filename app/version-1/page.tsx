@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { BaseFeatureSection } from "./_components/BaseFeatureSection";
 import { BrandStatement } from "./_components/BrandStatement";
 import { Footer } from "./_components/Footer";
 import { HeroSection } from "./_components/HeroSection";
@@ -29,7 +28,6 @@ export default function VersionOnePage() {
       <WhyRevolutionSection />
       <ManufacturingJourney />
       <ServicesSection />
-      <BaseFeatureSection />
       <TestimonialsFaqSection />
       <StartProjectSection />
       <Footer />

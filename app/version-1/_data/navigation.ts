@@ -5,7 +5,7 @@ export const homeNavItems = [
   { href: "/version-1/distribucion", id: "distribucion", label: "Distribución" },
   { href: "/version-1/marca-blanca", id: "marca-blanca", label: "Marca Blanca" },
   { href: "/version-1/ingredientes", id: "ingredientes", label: "Ingredientes" },
-  { href: "/version-1/base", id: "base", label: "BASE" },
+  { href: baseMicrositeUrl, id: "base", label: "BASE" },
   { href: "/version-1/recursos", id: "recursos", label: "Recursos" },
   { href: "/version-1/nosotros", id: "nosotros", label: "Nosotros" },
   { href: "/version-1/contacto", id: "contacto", label: "Contacto" },
@@ -17,7 +17,7 @@ export const futurePageRoutes = [
   { href: "/version-1/distribucion", label: "Distribución" },
   { href: "/version-1/marca-blanca", label: "Marca Blanca" },
   { href: "/version-1/ingredientes", label: "Ingredientes" },
-  { href: "/version-1/base", label: "BASE" },
+  { href: baseMicrositeUrl, label: "BASE" },
   { href: "/version-1/recursos", label: "Recursos" },
   { href: "/version-1/nosotros", label: "Nosotros" },
   { href: "/version-1/contacto", label: "Contacto" },
@@ -37,7 +37,7 @@ export const footerColumns = [
   {
     title: "Productos",
     links: [
-      { href: "/version-1/base", label: "BASE" },
+      { href: baseMicrositeUrl, label: "BASE" },
       { href: baseMicrositeUrl, label: "Catálogo BASE" },
       { href: "/version-1/ingredientes", label: "Ingredientes" },
       { href: "/version-1/distribucion", label: "Softgel Capsules" },
