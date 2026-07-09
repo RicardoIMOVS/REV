@@ -4,7 +4,7 @@ const companyLinks = [
   { href: "#filosofia", label: "Filosofia" },
   { href: "#id", label: "I+D" },
   { href: "#procesos", label: "Procesos" },
-  { href: "#base", label: "BASE" },
+  { href: "#base", label: "BĀSE" },
 ];
 
 const supportLinks = [

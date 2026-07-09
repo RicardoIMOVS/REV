@@ -182,13 +182,13 @@ export const businessLinePages = {
     processHeading: "Cotización técnica para tu proyecto",
   },
   base: {
-    eyebrow: "BASE",
+    eyebrow: "BĀSE",
     title: "Volver a lo esencial de la nutrición",
     intro:
-      "BASE nace de una convicción: antes de buscar soluciones complejas, es necesario fortalecer los fundamentos de una buena nutrición con productos prácticos, accesibles y basados en ingredientes con propósito.",
+      "BĀSE nace de una convicción: antes de buscar soluciones complejas, es necesario fortalecer los fundamentos de una buena nutrición con productos prácticos, accesibles y basados en ingredientes con propósito.",
     cta: {
       href: baseMicrositeUrl,
-      label: "Entrar al micrositio BASE",
+      label: "Entrar al micrositio BĀSE",
     },
     audience: [
       "Consumidores finales",
@@ -201,7 +201,7 @@ export const businessLinePages = {
     benefits: [
       {
         title: "Marca propia",
-        copy: "BASE funciona como prueba visual de la capacidad de Revolution Pharma para llevar un producto del concepto al consumidor.",
+        copy: "BĀSE funciona como prueba visual de la capacidad de Revolution Pharma para llevar un producto del concepto al consumidor.",
       },
       {
         title: "Nutrición consciente",
@@ -209,14 +209,14 @@ export const businessLinePages = {
       },
       {
         title: "Compra futura",
-        copy: "La experiencia presenta BASE dentro del ecosistema REVPHARMA y dirige al micrositio existente para la experiencia completa de marca.",
+        copy: "La experiencia presenta BĀSE dentro del ecosistema REVPHARMA y dirige al micrositio existente para la experiencia completa de marca.",
       },
     ],
     benefitsHeading:
       "Una marca propia para presentar la visión de Revolution Pharma",
     catalog: [
       {
-        category: "Filosofía BASE",
+        category: "Filosofía BĀSE",
         description:
           "Narrativa de nutrición esencial, claridad de ingredientes y hábitos sostenibles.",
       },
@@ -232,13 +232,13 @@ export const businessLinePages = {
       },
     ],
     catalogEyebrow: "Micrositio visual",
-    catalogHeading: "Elementos para presentar BASE antes de entrar al micrositio",
+    catalogHeading: "Elementos para presentar BĀSE antes de entrar al micrositio",
     process: [
       "Conocer la filosofía",
       "Explorar portafolio visual",
       "Leer contenido educativo",
-      "Entrar al micrositio BASE",
+      "Entrar al micrositio BĀSE",
     ],
-    processHeading: "Ruta puente hacia el micrositio BASE",
+    processHeading: "Ruta puente hacia el micrositio BĀSE",
   },
 };

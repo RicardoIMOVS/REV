@@ -13,7 +13,7 @@ export const featuredResources = [
   },
   {
     category: "Caso de marca",
-    title: "BASE como prueba de concepto",
+    title: "BĀSE como prueba de concepto",
     copy: "Conoce cómo una marca propia puede mostrar el recorrido desde la idea, la selección de ingredientes y la comunicación responsable hasta el consumidor.",
     status: "Caso",
   },
@@ -42,6 +42,6 @@ export const resourceFaqs = [
   {
     question: "¿Los artículos recomiendan una ruta comercial?",
     answer:
-      "Sí. Cada contenido puede orientar hacia Distribución, Marca Blanca, Ingredientes o BASE según la necesidad del proyecto y la etapa en la que se encuentre.",
+      "Sí. Cada contenido puede orientar hacia Distribución, Marca Blanca, Ingredientes o BĀSE según la necesidad del proyecto y la etapa en la que se encuentre.",
   },
 ];

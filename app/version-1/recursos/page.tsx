@@ -171,7 +171,7 @@ export default function RecursosPage() {
           </h2>
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
             Encuentra contenidos pensados para comparar Distribución, Marca
-            Blanca, Ingredientes y BASE según la etapa, el canal y el objetivo
+            Blanca, Ingredientes y BĀSE según la etapa, el canal y el objetivo
             comercial de tu proyecto.
           </p>
           <Link

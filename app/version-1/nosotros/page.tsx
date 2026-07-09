@@ -145,7 +145,7 @@ export default function NosotrosPage() {
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
             Explora nuestras soluciones para identificar si tu proyecto necesita
             distribución, desarrollo de marca privada, suministro de ingredientes
-            o una referencia de marca propia como BASE.
+            o una referencia de marca propia como BĀSE.
           </p>
           <Link
             className="mt-10 inline-flex bg-black px-8 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#2c3134]"

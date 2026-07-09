@@ -61,17 +61,17 @@ export const businessLines = [
   {
     accent: "bg-[#d36f2f]",
     detailTitle: "Marca propia y eCommerce visual",
-    eyebrow: "BASE",
+    eyebrow: "BĀSE",
     homeHref: "#base",
     id: "base",
-    label: "04 / BASE",
+    label: "04 / BĀSE",
     meta: "B2C",
     pageHref: baseMicrositeUrl,
     pathTitle: "Explora nuestra visión de nutrición esencial",
     summary:
-      "Conoce la filosofía, el portafolio y el contenido educativo de BASE, la marca propia de Revolution Pharma.",
+      "Conoce la filosofía, el portafolio y el contenido educativo de BĀSE, la marca propia de Revolution Pharma.",
     points: [
-      "Portafolio BASE",
+      "Portafolio BĀSE",
       "Filosofía de nutrición consciente",
       "Ruta de compra B2C visual",
     ],

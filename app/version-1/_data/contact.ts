@@ -25,9 +25,9 @@ export const contactIntents = [
     cta: "Solicitar cotización",
   },
   {
-    title: "BASE",
+    title: "BĀSE",
     copy: "Para conocer la marca propia, su portafolio, contenido educativo y rutas de atención relacionadas.",
-    cta: "Entrar al micrositio BASE",
+    cta: "Entrar al micrositio BĀSE",
   },
 ];
 
