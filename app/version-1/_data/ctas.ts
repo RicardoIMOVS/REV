@@ -29,6 +29,6 @@ export const commercialCtas = {
   },
   base: {
     href: baseMicrositeUrl,
-    label: "Entrar al micrositio BASE",
+    label: "Entrar al micrositio BĀSE",
   },
 };

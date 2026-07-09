@@ -25,7 +25,7 @@ export const helpFaqs = [
   {
     question: "¿Cómo contacto al equipo correcto?",
     answer:
-      "La ruta recomendada es ir a Contacto y elegir la intención: ventas, distribuidores, marca blanca, ingredientes, BASE o atención.",
+      "La ruta recomendada es ir a Contacto y elegir la intención: ventas, distribuidores, marca blanca, ingredientes, BĀSE o atención.",
   },
   {
     question: "¿Puedo solicitar seguimiento de un proyecto?",

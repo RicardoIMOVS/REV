@@ -16,12 +16,12 @@ export function BaseFeatureSection() {
         </Reveal>
         <Reveal delay={150}>
           <h2 className="text-5xl font-black uppercase leading-tight md:text-7xl">
-            Explora BASE
+            Explora BĀSE
           </h2>
         </Reveal>
         <Reveal delay={260}>
           <p className="mx-auto mt-10 max-w-2xl text-lg leading-8 text-white/70">
-            BASE presenta la visión de Revolution Pharma sobre nutrición
+            BĀSE presenta la visión de Revolution Pharma sobre nutrición
             esencial como marca propia y ejemplo de capacidad comercial.
           </p>
         </Reveal>
@@ -32,7 +32,7 @@ export function BaseFeatureSection() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Entrar al micrositio BASE
+            Entrar al micrositio BĀSE
           </a>
         </Reveal>
       </div>

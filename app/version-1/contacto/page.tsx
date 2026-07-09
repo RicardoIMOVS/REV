@@ -14,7 +14,7 @@ import {
 export const metadata: Metadata = {
   title: "Contacto | REVOLUTION PHARMA",
   description:
-    "Contacto comercial de Revolution Pharma para distribución, marca privada, ingredientes, BASE y atención general.",
+    "Contacto comercial de Revolution Pharma para distribución, marca privada, ingredientes, BĀSE y atención general.",
 };
 
 export default function ContactoPage() {
@@ -41,7 +41,7 @@ export default function ContactoPage() {
               <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
                 Cuéntanos qué necesitas y canalizaremos tu solicitud hacia el
                 equipo adecuado: ventas, atención, distribución, marca privada,
-                ingredientes o BASE.
+                ingredientes o BĀSE.
               </p>
             </Reveal>
           </div>

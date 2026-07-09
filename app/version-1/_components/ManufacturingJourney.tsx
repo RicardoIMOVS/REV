@@ -14,7 +14,7 @@ const journey = [
   {
     phase: "Motor 02",
     title: "Convertir",
-    copy: "Cada línea de negocio dirige a una acción clara: solicitar cuenta comercial, agendar asesoría, pedir cotización o explorar BASE.",
+    copy: "Cada línea de negocio dirige a una acción clara: solicitar cuenta comercial, agendar asesoría, pedir cotización o explorar BĀSE.",
     image:
       "/placeholder.svg",
     imageFirst: true,

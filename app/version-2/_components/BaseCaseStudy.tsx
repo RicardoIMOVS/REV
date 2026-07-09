@@ -14,7 +14,7 @@ export function BaseCaseStudy() {
             Estudio de Caso
           </span>
           <h2 className="mb-8 text-4xl font-semibold leading-tight md:text-5xl">
-            BASE: Reinvencion del Minimalismo
+            BĀSE: Reinvencion del Minimalismo
           </h2>
           <p className="mb-12 text-xl leading-8 text-white/70">
             Como Revolution Pharma materializo una marca de suplementos premium
@@ -27,7 +27,7 @@ export function BaseCaseStudy() {
             target="_blank"
           >
             <span className={`${labelClass} border-b border-white pb-2 transition-all group-hover:pr-4`}>
-              Entrar al universo BASE
+              Entrar al universo BĀSE
             </span>
             <span className="transition-transform group-hover:translate-x-2">
               -&gt;
@@ -38,7 +38,7 @@ export function BaseCaseStudy() {
         <FadeIn className="relative col-span-12 mt-16 lg:col-span-6 lg:mt-0">
           <div className="group relative z-10 aspect-4/5 cursor-pointer overflow-hidden">
             <Image
-              alt="Estudio de caso BASE con producto premium minimalista."
+              alt="Estudio de caso BĀSE con producto premium minimalista."
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"

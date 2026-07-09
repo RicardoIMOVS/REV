@@ -11,7 +11,7 @@ export function StartProjectSection() {
           </h2>
           <p className="mb-12 max-w-xl text-lg leading-8 text-black/75">
             Elige una ruta comercial y conecta con el equipo correcto:
-            distribución, marca blanca, ingredientes, BASE o atención general.
+            distribución, marca blanca, ingredientes, BĀSE o atención general.
           </p>
           <div className="flex flex-col gap-5 sm:flex-row">
             <a

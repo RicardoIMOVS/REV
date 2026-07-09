@@ -8,7 +8,7 @@ const navLinks = [
   { href: "#filosofia", id: "filosofia", label: "Filosofia" },
   { href: "#id", id: "id", label: "I+D" },
   { href: "#procesos", id: "procesos", label: "Procesos" },
-  { href: "#base", id: "base", label: "BASE" },
+  { href: "#base", id: "base", label: "BĀSE" },
   { href: "#contacto", id: "contacto", label: "Contacto" },
 ];
 
@@ -81,23 +81,22 @@ export function TopNav() {
             const isActive = activeSection === link.id;
 
             return (
-            <a
-              key={link.href}
-              aria-current={isActive ? "page" : undefined}
-              className={`${labelClass} border-b transition ${
-                isActive
-                  ? "border-[#192830] text-[#192830]"
-                  : "border-transparent text-[#43474a] hover:text-[#192830]"
-              }`}
-              href={link.href}
-              onClick={(event) => {
-                event.preventDefault();
-                scrollToSection(link.href);
-              }}
-            >
-              {link.label}
-            </a>
-          );
+              <a
+                key={link.href}
+                aria-current={isActive ? "page" : undefined}
+                className={`${labelClass} border-b transition ${isActive
+                    ? "border-[#192830] text-[#192830]"
+                    : "border-transparent text-[#43474a] hover:text-[#192830]"
+                  }`}
+                href={link.href}
+                onClick={(event) => {
+                  event.preventDefault();
+                  scrollToSection(link.href);
+                }}
+              >
+                {link.label}
+              </a>
+            );
           })}
         </div>
 

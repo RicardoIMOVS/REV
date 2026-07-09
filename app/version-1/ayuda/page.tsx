@@ -83,7 +83,7 @@ export default function AyudaPage() {
                     Módulo 0{index + 1}
                   </span>
                   <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#747878]">
-                  {topic.status}
+                    {topic.status}
                   </span>
                 </div>
                 <h3 className="text-2xl font-bold uppercase text-black">
@@ -165,7 +165,7 @@ export default function AyudaPage() {
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[#444748]">
             Si tu solicitud requiere revisión específica, comparte tu caso en
             Contacto para que podamos dirigirlo a ventas, distribución, marca
-            privada, ingredientes, BASE o atención general.
+            privada, ingredientes, BĀSE o atención general.
           </p>
           <Link
             className="mt-10 inline-flex bg-black px-8 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#2c3134]"

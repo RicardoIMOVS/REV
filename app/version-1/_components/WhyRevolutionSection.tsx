@@ -14,7 +14,7 @@ const pillars = [
   },
   {
     label: "03 / Comprar",
-    title: "BASE como marca propia",
+    title: "BĀSE como marca propia",
     copy: "La marca propia muestra la capacidad de llevar un producto del concepto al consumidor con una experiencia enfocada en nutrición esencial.",
   },
 ];

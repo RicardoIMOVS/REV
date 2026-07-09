@@ -5,7 +5,7 @@ export const companyPillars = [
   },
   {
     title: "Nuestra historia",
-    copy: "Hemos construido un ecosistema que conecta abastecimiento de ingredientes, desarrollo de marcas, distribución especializada y BASE como referencia de marca propia.",
+    copy: "Hemos construido un ecosistema que conecta abastecimiento de ingredientes, desarrollo de marcas, distribución especializada y BĀSE como referencia de marca propia.",
   },
   {
     title: "Calidad",
@@ -26,7 +26,7 @@ export const companyPillars = [
 ];
 
 export const trustStats = [
-  { label: "Distribución, marca privada, ingredientes y BASE", value: "4 líneas" },
+  { label: "Distribución, marca privada, ingredientes y BĀSE", value: "4 líneas" },
   { label: "Soluciones para empresas y consumidores", value: "B2B/B2C" },
   { label: "Soporte comercial y técnico", value: "Acompañamiento" },
   { label: "Comunicación responsable", value: "Cumplimiento" },

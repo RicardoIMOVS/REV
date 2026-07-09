@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { BaseFeatureSection } from "./_components/BaseFeatureSection";
 import { BrandStatement } from "./_components/BrandStatement";
 import { Footer } from "./_components/Footer";
 import { HeroSection } from "./_components/HeroSection";
@@ -14,7 +13,7 @@ import { WhyRevolutionSection } from "./_components/WhyRevolutionSection";
 export const metadata: Metadata = {
   title: "REVOLUTION PHARMA | Ecosistema de suplementos",
   description:
-    "Ecosistema de suplementos alimenticios para distribución, marca privada, ingredientes y BASE como marca propia de Revolution Pharma.",
+    "Ecosistema de suplementos alimenticios para distribución, marca privada, ingredientes y BĀSE como marca propia de Revolution Pharma.",
 };
 
 export default function VersionOnePage() {
@@ -29,7 +28,6 @@ export default function VersionOnePage() {
       <WhyRevolutionSection />
       <ManufacturingJourney />
       <ServicesSection />
-      <BaseFeatureSection />
       <TestimonialsFaqSection />
       <StartProjectSection />
       <Footer />

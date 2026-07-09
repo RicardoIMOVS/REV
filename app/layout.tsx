@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "REVOLUTION PHARMA | Ecosistema de suplementos",
   description:
-    "Ecosistema de suplementos alimenticios para distribución, marca privada, ingredientes y BASE.",
+    "Ecosistema de suplementos alimenticios para distribución, marca privada, ingredientes y BĀSE.",
 };
 
 export default function RootLayout({
